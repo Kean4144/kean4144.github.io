@@ -1,0 +1,39 @@
+@font-face {
+    font-family: PFDintext;
+    src: url(pfdintextstd-medium.ttf);
+  }
+  
+body {
+    background-color: #162637;
+}
+table {
+    border: 2px solid #51ffff;
+    border-collapse: collapse;
+}
+table td, table th {
+    font-size: 20px;
+    font-family: PFDintext;
+    font-weight: normal;
+    color: white;
+    line-height: 1.5;
+    padding: 0px 5px 0px 5px;
+    text-wrap: nowrap;
+}
+#theader {
+    background-color: #2874bf;
+    font-size: 36px;
+    -webkit-text-stroke: 1.25px black;
+    line-height: 1;
+    padding: 5px 15px 5px 15px;
+    text-wrap: nowrap;
+}
+h1 {
+    text-align: center;
+    font-family: PFDintext;
+    font-weight: normal;
+}
+h2 {
+    text-align: center;
+    font-family: PFDintext;
+    font-weight: normal;
+}
